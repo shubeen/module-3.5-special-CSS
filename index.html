@@ -5,14 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<style>
+    h1{
+        color: saddlebrown;
+    }
+    h1:hover{
+        background-color: darkblue;
+    }
+    .special-effect:hover{
+        color: seagreen;
+        font-size: 30px;
+        background-color: yellow;
+    }
+    .normal:hover{
+        color: aquamarine;
+        font-weight: 300;
+        background-color: burlywood;
+    }
+    input:focus{
+        font-size: larger;
+        font-style: itapc;
+    }
+    p:nth-child(2n+1){
+        background-color: darkgoldenrod;
+        font-weight: 700;
+    }
+    .special::before{
+        content: " hi ";
+        color: darkmagenta;
+    }
+    h1::after{
+        content: " bye ";
+    }
+</style>
+
 <h1>Moule 3.5 special CSS </h1>
 
-<h1>pseudoclass</h1> 
+<h1 class="special">pseudoclass</h1> 
 <h1 class="normal">second class</h1>
 <h1 class="special-effect">third class</h1>
+<a href="https://shubeen.github.io/my-first-website/"> my first github project</a>
+<br>
+<a href="https://htmlcheatsheet.com/css/">css cheatsheet</a>
+<br>
 
 
 <body>
+    <input name="email" type="text">
+    <br>
+    <input  name="passwrod" type="text">    
+    
+        <p>shubeen</p>
+        <p>shujoy</p>
+        <p>shudip</p>
+        <p>afiza</p>
+        <p>anisha</p>
     
 </body>
 </html>
