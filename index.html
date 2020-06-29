@@ -24,16 +24,23 @@
     }
     input:focus{
         font-size: larger;
-        font-style: italic;
+        font-style: itapc;
     }
-    li:nth-child(2n+1){
+    p:nth-child(2n+1){
         background-color: darkgoldenrod;
         font-weight: 700;
+    }
+    .special::before{
+        content: " hi ";
+        color: darkmagenta;
+    }
+    h1::after{
+        content: " bye ";
     }
 </style>
 <h1>Moule 3.5 special CSS </h1>
 
-<h1>pseudoclass</h1> 
+<h1 class="special">pseudoclass</h1> 
 <h1 class="normal">second class</h1>
 <h1 class="special-effect">third class</h1>
 <a href="https://shubeen.github.io/my-first-website/"> my first github project</a>
@@ -46,12 +53,12 @@
     <input name="email" type="text">
     <br>
     <input  name="passwrod" type="text">    
-    <ul>
-        <li>shubeen</li>
-        <li>shujoy</li>
-        <li>shudip</li>
-        <li>afiza</li>
-        <li>anisha</li>
-    </ul>
+    
+        <p>shubeen</p>
+        <p>shujoy</p>
+        <p>shudip</p>
+        <p>afiza</p>
+        <p>anisha</p>
+    
 </body>
 </html>
